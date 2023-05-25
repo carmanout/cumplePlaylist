@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BienvenidaComponent } from './componentes/bienvenida/bienvenida.component';
 import { JuegoComponent } from './componentes/juego/juego.component';
 import { ResultadoComponent } from './componentes/resultado/resultado.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { ResultadoComponent } from './componentes/resultado/resultado.component'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

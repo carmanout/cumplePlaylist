@@ -1,7 +1,9 @@
 .pregunta{
-    display: none;
+    position: absolute;
+    transition: opacity 1s ease-out;
 }
 
-.activa{
-    display: block !important
-}
+// .activa{
+//     display: block !important;
+//     transition: opacity 1s ease-out;
+// }
