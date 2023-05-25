@@ -39,7 +39,7 @@ export class JuegoComponent implements OnInit, AfterViewInit {
   }
 
   ngAfterViewInit(): void {
-    var primero = this.preguntas.first
+    var primero = this.preguntas.toArray()[0]
     if(primero){
       console.log(primero)
       primero.nativeElement.style.display="block"
