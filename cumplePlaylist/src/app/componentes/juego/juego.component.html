@@ -1,0 +1,26 @@
+<div *ngFor="let cancion of jsonData ; let i = index" id="{{i}}" class="pregunta" #preguntas>
+    <div class="visual">
+        <h3>{{ cancion.titulo }}</h3>
+        <h4>Artista: {{ cancion.artista }}</h4>
+
+    </div>
+
+    <div class="opciones">
+        <p>¿Quien se acuerda de ti por esta canción?</p>
+        <ul *ngFor="let nombre of nombres">
+            <li>
+                <button (click)="this.check(nombre, cancion.nombres.toString())">
+                    {{nombre}}
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="solcion">
+
+        <p>Las respuestas correctas eran:</p>
+        <ul>
+            <li *ngFor="let nombre of cancion.nombres">{{ nombre }}</li>
+        </ul>
+    </div>
+</div>
