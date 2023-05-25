@@ -35,14 +35,27 @@ export class JuegoComponent implements OnInit, AfterViewInit {
 
     if (comprobacion.includes(nombre)) {
       alert("¡Acierto!");
+    }else{
+      alert("Error!");
+    }
+    // this.next()
+  }
+
+  pagina = 0
+
+  ngAfterViewInit(): void {
+    var primero = this.preguntas.toArray()[this.pagina]
+    if(primero){
+
+      primero.nativeElement.style.display="block"
     }
   }
 
-  ngAfterViewInit(): void {
-    var primero = this.preguntas.toArray()[0]
-    if(primero){
-      console.log(primero)
-      primero.nativeElement.style.display="block"
-    }
+  next(){
+
+    this.preguntas.toArray()[this.pagina].nativeElement.style.display="none"
+    this.preguntas.toArray()[this.pagina+1].nativeElement.style.display="block"
+    this.pagina++
+    
   }
 }
