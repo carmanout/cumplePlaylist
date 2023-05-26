@@ -21,9 +21,12 @@
                     <p *ngIf="correcta">¡Has acertado!</p>
                     <p *ngIf="!correcta">¡Fallaste!</p>
                     <div *ngIf="cancion.nombres.length > 1">
-                        ¡Estas personas pensaron en ti con esta canción!
-                            <p *ngFor="let nombre of cancion.nombres">{{ nombre }} </p>
+                        <p>
+                            ¡<span *ngFor="let nombre of cancion.nombres; let i = index; let last = last">{{nombre}}{{last ? '' : (i < cancion.nombres.length - 2) ? ', ' : ' y también'}}
+                            </span>
+                            pensaron en ti con esta canción!</p>
                     </div>
+                    
                     <p *ngIf="cancion.nombres.length == 1">
                         ¡{{cancion.nombres[0]}} pensó en ti con esta canción!
                     </p>
