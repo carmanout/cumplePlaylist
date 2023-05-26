@@ -1,207 +1,207 @@
 [
   {
-    "titulo": "Live forever",
-    "artista": "Oasis",
-    "nombres": ["MARINA", "CLARA"]
+    "titulo": "20 De Abril",
+    "artista": "Celtas Cortos",
+    "nombres": ["Antonio"]
   },
   {
     "titulo": "911",
     "artista": "Sech",
-    "nombres": ["MARINA"]
+    "nombres": ["Marina"]
   },
   {
-    "titulo": "Cualquier otra parte",
-    "artista": "Dorian",
-    "nombres": ["MARINA", "JUAN"]
+    "titulo": "A Gritos De Esperanza",
+    "artista": "Alex Ubago",
+    "nombres": ["Ana Gilo"]
   },
   {
-    "titulo": "Bribriblibli",
+    "titulo": "Ama, Y Ensancha El Alma",
     "artista": "Extremoduro",
-    "nombres": ["MARINA"]
-  },
-  {
-    "titulo": "Palomas",
-    "artista": "Blasfem",
-    "nombres": ["JUAN"]
-  },
-  {
-    "titulo": "Ama,y ensancha el alma",
-    "artista": "Extremoduro",
-    "nombres": ["JUAN", "ISA CARMONA"]
-  },
-  {
-    "titulo": "Nos vamos a comer el mundo",
-    "artista": "Juancho Marqués",
-    "nombres": ["JUAN"]
-  },
-  {
-    "titulo": "Club de fans de John Boy",
-    "artista": "Love of lesbian",
-    "nombres": ["JUAN", "ANA GILO"]
-  },
-  {
-    "titulo": "Chiquilla",
-    "artista": "Seguridad Social",
-    "nombres": ["JOSE RAMÓN"]
+    "nombres": ["Juan", "Isa Carmona"]
   },
   {
     "titulo": "Asturias",
     "artista": "Melendi",
-    "nombres": ["JOSE RAMÓN"]
-  },
-  {
-    "titulo": "Pienso en aquella tarde",
-    "artista": "Pereza",
-    "nombres": ["JOSE RAMÓN"]
-  },
-  {
-    "titulo": "Turnedo",
-    "artista": "Ivanferreiro",
-    "nombres": ["ANA CARMONA"]
-  },
-  {
-    "titulo": "Ultimamente",
-    "artista": "Ismael Serrano",
-    "nombres": ["ANA CARMONA"]
-  },
-  {
-    "titulo": "Salir",
-    "artista": "Extremo Duro",
-    "nombres": ["ANA CARMONA"]
-  },
-  {
-    "titulo": "La del Pirata Cojo",
-    "artista": "Joaquin Sabina",
-    "nombres": ["ANA CARMONA", "ISA CARMONA", "ANA GILO"]
-  },
-  {
-    "titulo": "Como conoci a vuestra Madre",
-    "artista": "Ivan Ferreiro",
-    "nombres": ["ISA CARMONA", "CLARA"]
-  },
-  {
-    "titulo": "Las malas lenguas",
-    "artista": "Love of Lesbian",
-    "nombres": ["ISA CARMONA"]
-  },
-  {
-    "titulo": "Fix You",
-    "artista": "Coldplay",
-    "nombres": ["ISA CARMONA"]
-  },
-  {
-    "titulo": "Bzrp sesion 36",
-    "artista": "Nathy Peluso",
-    "nombres": ["CANDELA"]
-  },
-  {
-    "titulo": "Latinoamerica",
-    "artista": "Calle 13",
-    "nombres": ["JORGE", "ANTONIO"]
+    "nombres": ["Jose Ramón"]
   },
   {
     "titulo": "Batmovil",
     "artista": "Hens Pole Funzo",
-    "nombres": ["JORGE"]
+    "nombres": ["Jorge"]
   },
   {
-    "titulo": "Hasta Cuando",
-    "artista": "Fernando Costa",
-    "nombres": ["JORGE"]
+    "titulo": "Bribriblibli",
+    "artista": "Extremoduro",
+    "nombres": ["Marina"]
   },
   {
-    "titulo": "Nothing Else Matters",
-    "artista": "Metallica",
-    "nombres": ["JORGE"]
+    "titulo": "Bzrp Sesion 36",
+    "artista": "Nathy Peluso",
+    "nombres": ["Candela"]
   },
   {
-    "titulo": "Wonderwall",
+    "titulo": "Can You Read My Mind",
+    "artista": "The Killers",
+    "nombres": ["Carlos"]
+  },
+  {
+    "titulo": "Chiquilla",
+    "artista": "Seguridad Social",
+    "nombres": ["Jose Ramón"]
+  },
+  {
+    "titulo": "Club De Fans De John Boy",
+    "artista": "Love Of Lesbian",
+    "nombres": ["Juan", "Ana Gilo"]
+  },
+  {
+    "titulo": "Come On Feel The Noise",
+    "artista": "Selade",
+    "nombres": ["Carlos"]
+  },
+  {
+    "titulo": "Como Conoci A Vuestra Madre",
+    "artista": "Ivan Ferreiro",
+    "nombres": ["Isa Carmona", "Clara"]
+  },
+  {
+    "titulo": "Cualquier Otra Parte",
+    "artista": "Dorian",
+    "nombres": ["Marina", "Juan"]
+  },
+  {
+    "titulo": "Don't Look Back In Anger",
     "artista": "Oasis",
-    "nombres": ["ANA GILO"]
+    "nombres": ["Carlos"]
   },
   {
-    "titulo": "A gritos de esperanza",
-    "artista": "Alex Ubago",
-    "nombres": ["ANA GILO"]
+    "titulo": "Don't Look Back Into The Sun",
+    "artista": "The Libertines",
+    "nombres": ["Carlos"]
   },
   {
-    "titulo": "Papá cuentame otra vez",
-    "artista": "Ismael Serrano",
-    "nombres": ["ANA GILO", "SERGIO"]
-  },
-  {
-    "titulo": "Quien fuera",
-    "artista": "Silvio Rodriguez",
-    "nombres": ["SERGIO"]
-  },
-  {
-    "titulo": "Los periodicos del Mañana",
-    "artista": "Mclan",
-    "nombres": ["SERGIO"]
-  },
-  {
-    "titulo": "El himno del Atletico",
+    "titulo": "El Himno Del Atletico",
     "artista": "",
-    "nombres": ["SERGIO"]
+    "nombres": ["Sergio"]
   },
   {
-    "titulo": "Ventiladors",
-    "artista": "Zoo",
-    "nombres": ["SERGIO"]
-  },
-  {
-    "titulo": "Lisa y fran",
-    "artista": "Revolver",
-    "nombres": ["CLARA"]
+    "titulo": "El Miedo Va A Cambiar De Bando",
+    "artista": "Riot Propaganda",
+    "nombres": ["Antonio"]
   },
   {
     "titulo": "Enganchao",
     "artista": "InnerCut RecycledJ",
-    "nombres": ["CLARA"]
-  },
-  {
-    "titulo": "Tu foto",
-    "artista": "Cupido",
-    "nombres": ["CLARA"]
-  },
-  {
-    "titulo": "20 de Abril",
-    "artista": "Celtas Cortos",
-    "nombres": ["ANTONIO"]
+    "nombres": ["Clara"]
   },
   {
     "titulo": "Feo",
-    "artista": "Fito y fitipaldis",
-    "nombres": ["ANTONIO"]
+    "artista": "Fito Y Fitipaldis",
+    "nombres": ["Antonio"]
   },
   {
-    "titulo": "El miedo va a cambiar de bando",
-    "artista": "Riot Propaganda",
-    "nombres": ["ANTONIO"]
+    "titulo": "Fix You",
+    "artista": "Coldplay",
+    "nombres": ["Isa Carmona"]
+  },
+  {
+    "titulo": "Hasta Cuando",
+    "artista": "Fernando Costa",
+    "nombres": ["Jorge"]
+  },
+  {
+    "titulo": "La Del Pirata Cojo",
+    "artista": "Joaquin Sabina",
+    "nombres": ["Ana Carmona", "Isa Carmona", "Ana Gilo"]
+  },
+  {
+    "titulo": "Las Malas Lenguas",
+    "artista": "Love Of Lesbian",
+    "nombres": ["Isa Carmona"]
+  },
+  {
+    "titulo": "Latinoamerica",
+    "artista": "Calle 13",
+    "nombres": ["Jorge", "Antonio"]
+  },
+  {
+    "titulo": "Lisa Y Fran",
+    "artista": "Revolver",
+    "nombres": ["Clara"]
+  },
+  {
+    "titulo": "Live Forever",
+    "artista": "Oasis",
+    "nombres": ["Marina", "Clara"]
   },
   {
     "titulo": "Long December",
     "artista": "Counting Crows",
-    "nombres": ["CARLOS"]
+    "nombres": ["Carlos"]
   },
   {
-    "titulo": "Don't look back in anger",
+    "titulo": "Los Periodicos Del Mañana",
+    "artista": "Mclan",
+    "nombres": ["Sergio"]
+  },
+  {
+    "titulo": "Nos Vamos A Comer El Mundo",
+    "artista": "Juancho Marqués",
+    "nombres": ["Juan"]
+  },
+  {
+    "titulo": "Nothing Else Matters",
+    "artista": "Metallica",
+    "nombres": ["Jorge"]
+  },
+  {
+    "titulo": "Papá Cuentame Otra Vez",
+    "artista": "Ismael Serrano",
+    "nombres": ["Ana Gilo", "Sergio"]
+  },
+  {
+    "titulo": "Palomas",
+    "artista": "Blasfem",
+    "nombres": ["Juan"]
+  },
+  {
+    "titulo": "Pienso En Aquella Tarde",
+    "artista": "Pereza",
+    "nombres": ["Jose Ramón"]
+  },
+  {
+    "titulo": "Quien Fuera",
+    "artista": "Silvio Rodriguez",
+    "nombres": ["Sergio"]
+  },
+  {
+    "titulo": "Salir",
+    "artista": "Extremo Duro",
+    "nombres": ["Ana Carmona"]
+  },
+  {
+    "titulo": "Tu Foto",
+    "artista": "Cupido",
+    "nombres": ["Clara"]
+  },
+  {
+    "titulo": "Turnedo",
+    "artista": "Ivanferreiro",
+    "nombres": ["Ana Carmona"]
+  },
+  {
+    "titulo": "Ultimamente",
+    "artista": "Ismael Serrano",
+    "nombres": ["Ana Carmona"]
+  },
+  {
+    "titulo": "Ventiladors",
+    "artista": "Zoo",
+    "nombres": ["Sergio"]
+  },
+  {
+    "titulo": "Wonderwall",
     "artista": "Oasis",
-    "nombres": ["CARLOS"]
-  },
-  {
-    "titulo": "Don't look back into the sun",
-    "artista": "The libertines",
-    "nombres": ["CARLOS"]
-  },
-  {
-    "titulo": "Can you read my mind",
-    "artista": "The Killers",
-    "nombres": ["CARLOS"]
-  },
-  {
-    "titulo": "Come on feel the noise",
-    "artista": "Selade",
-    "nombres": ["CARLOS"]
+    "nombres": ["Ana Gilo"]
   }
 ]

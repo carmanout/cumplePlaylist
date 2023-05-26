@@ -10,7 +10,7 @@
             </div>
 
             <div class="opciones">
-                <p>¿Quien se acuerda de ti por esta canción?</p>
+                <h3>¿Quien se acuerda de ti por esta canción?</h3>
                 <button *ngFor="let nombre of nombres" (click)="this.check(nombre, cancion.nombres.toString())">
                     {{nombre}}
                 </button>
@@ -41,5 +41,6 @@
         <p>Hemos disfrutado mucho recordando todas estas canciones que te representan. Esperamos que hayas disfrutado tanto como nosotros preparándolo para ti.</p>
         <p>¡Has acertado un {{porcentajePuntuacion()}}% de las resputestas!</p>
         <p>¡Sigue llenando tus días con música y buenos recuerdos! Nosotros, tus amigos y familiares, estamos aquí para compartir cada nota contigo. ¡Feliz cumpleaños, Jose!</p>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7unabsQndNTngNKTZwI5HW?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 </div>

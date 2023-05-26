@@ -24,7 +24,7 @@ export class JuegoComponent implements OnInit {
 
   ngOnInit(): void {
     this.nombres = [];
-
+    
     let counter = 0;
     while (this.jsonData[counter]?.nombres !== undefined) {
       const nombresCancion = this.jsonData[counter].nombres;
@@ -40,6 +40,7 @@ export class JuegoComponent implements OnInit {
       counter++;
     }
 
+    // this.jsonData.sort(() => Math.random() - 0.5);
   }
 
   check(nombre: string, comprobacion: any) {
@@ -65,7 +66,7 @@ export class JuegoComponent implements OnInit {
     this.completa=false
     this.preguntaActual++;
     console.log(this.preguntaActual+";"+this.jsonData.length)
-    if(this.preguntaActual==this.jsonData.length-2){
+    if(this.preguntaActual==this.jsonData.length-42){
       this.terminado = true
     }
   }
