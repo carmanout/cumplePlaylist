@@ -10,14 +10,14 @@
     "nombres": ["Marina"]
   },
   {
-    "titulo": "A Gritos De Esperanza",
+    "titulo": "A Gritos De Esperanza (y si preguntan por mi...)",
     "artista": "Alex Ubago",
     "nombres": ["Ana Gilo"]
   },
   {
-    "titulo": "Ama, Y Ensancha El Alma",
+    "titulo": "Ama, Ama, Ama, y Ensancha El Alma",
     "artista": "Extremoduro",
-    "nombres": ["Juan", "Isa Carmona"]
+    "nombres": ["Juan", "Isa"]
   },
   {
     "titulo": "Asturias",
@@ -25,8 +25,8 @@
     "nombres": ["Jose Ramón"]
   },
   {
-    "titulo": "Batmovil",
-    "artista": "Hens Pole Funzo",
+    "titulo": "Batmovil - Hens, Pole., Funzo & Baby Loud",
+    "artista": "Quinto Elemento",
     "nombres": ["Jorge"]
   },
   {
@@ -55,14 +55,14 @@
     "nombres": ["Juan", "Ana Gilo"]
   },
   {
-    "titulo": "Come On Feel The Noise",
-    "artista": "Selade",
+    "titulo": "Cum On Feel The Noize",
+    "artista": "Slade",
     "nombres": ["Carlos"]
   },
   {
     "titulo": "Como Conoci A Vuestra Madre",
     "artista": "Ivan Ferreiro",
-    "nombres": ["Isa Carmona", "Clara"]
+    "nombres": ["Isa", "Clara"]
   },
   {
     "titulo": "Cualquier Otra Parte",
@@ -81,7 +81,7 @@
   },
   {
     "titulo": "El Himno Del Atletico",
-    "artista": "",
+    "artista": "¿Realmente es relevante?",
     "nombres": ["Sergio"]
   },
   {
@@ -91,7 +91,7 @@
   },
   {
     "titulo": "Enganchao",
-    "artista": "InnerCut RecycledJ",
+    "artista": "InnerCut, Recycled J, Beauty Pikete",
     "nombres": ["Clara"]
   },
   {
@@ -102,7 +102,7 @@
   {
     "titulo": "Fix You",
     "artista": "Coldplay",
-    "nombres": ["Isa Carmona"]
+    "nombres": ["Isa"]
   },
   {
     "titulo": "Hasta Cuando",
@@ -112,12 +112,12 @@
   {
     "titulo": "La Del Pirata Cojo",
     "artista": "Joaquin Sabina",
-    "nombres": ["Ana Carmona", "Isa Carmona", "Ana Gilo"]
+    "nombres": ["Ana Carmona", "Isa", "Ana Gilo"]
   },
   {
     "titulo": "Las Malas Lenguas",
     "artista": "Love Of Lesbian",
-    "nombres": ["Isa Carmona"]
+    "nombres": ["Isa"]
   },
   {
     "titulo": "Latinoamerica",
@@ -161,7 +161,7 @@
   },
   {
     "titulo": "Palomas",
-    "artista": "Blasfem",
+    "artista": "Blasfem, Recycled J",
     "nombres": ["Juan"]
   },
   {
