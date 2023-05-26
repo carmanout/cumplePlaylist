@@ -66,7 +66,7 @@ export class JuegoComponent implements OnInit {
     this.completa=false
     this.preguntaActual++;
     console.log(this.preguntaActual+";"+this.jsonData.length)
-    if(this.preguntaActual==this.jsonData.length-42){
+    if(this.preguntaActual==this.jsonData.length-2){
       this.terminado = true
     }
   }
