@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BienvenidaComponent } from './componentes/bienvenida/bienvenida.component';
 import { JuegoComponent } from './componentes/juego/juego.component';
-import { ResultadoComponent } from './componentes/resultado/resultado.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -13,8 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   declarations: [
     AppComponent,
     BienvenidaComponent,
-    JuegoComponent,
-    ResultadoComponent
+    JuegoComponent
   ],
   imports: [
     BrowserModule,

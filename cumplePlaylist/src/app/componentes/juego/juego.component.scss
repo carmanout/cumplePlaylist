@@ -1,9 +1,91 @@
-.pregunta{
+#cuerpo {
+    display: flex;
+    justify-content: center;
+    background: url("../../../assets/cumple.jpg"); /* puedes cambiar este color si deseas */
+    min-width: 50vh;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
     position: absolute;
-    transition: opacity 1s ease-out;
+    z-index: 4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-// .activa{
-//     display: block !important;
-//     transition: opacity 1s ease-out;
-// }
+
+.pregunta {
+    position: absolute;
+    transition: opacity 1s ease-out;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.visual {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.visual h3, .visual h4 {
+    margin: 0;
+}
+
+.opciones {
+    margin-bottom: 20px;
+}
+
+.opciones p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.opciones ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.opciones button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.solucion {
+    text-align: center;
+}
+
+.solucion div {
+    background-color: #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.solucion button {
+    background-color: #008CBA; 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}

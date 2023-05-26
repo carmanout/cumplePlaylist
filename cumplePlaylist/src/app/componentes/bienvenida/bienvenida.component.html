@@ -1,1 +1,10 @@
-<p>bienvenida works!</p>
+<div id="cuerpo" *ngIf="checker()" @fade>
+    <div class="content">
+        <h1>¡Hola Jose!</h1>
+        <h2>¡Bienvenido a tu regalo de cumpleaños!</h2>
+        <p>Hoy celebramos el regalo que es tu vida, y queremos entregarte algo que refleje cuánto significas para todos nosotros. Tu risa, tu generosidad, y tu amor por la música nos han inspirado a hacer este regalo tan especial para ti.</p>
+        <p>Este juego no es un simple pasatiempo, sino un viaje musical lleno de recuerdos y emociones. Cada una de las canciones que encontrarás aquí han sido seleccionadas cuidadosamente por tus amigos y familiares, ya que de alguna manera, nos recuerdan a ti. Tal vez por una letra, un ritmo, una melodía, o simplemente un momento que compartimos contigo.</p>
+        <p>Así como las notas de una canción se unen para crear una melodía, también nosotros nos hemos unido para crear este regalo. Que este regalo te haga sonreír, bailar, cantar y, sobre todo, recordarte lo querido que eres para todos nosotros. Te deseamos un cumpleaños lleno de alegría y música.</p>
+        <button class="btn" (click)="empezar()">¡Jugar!</button>
+    </div>
+</div>

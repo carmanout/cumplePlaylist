@@ -17,6 +17,10 @@ export class JuegoComponent implements OnInit {
   public jsonData: any = Object.values(data);
   public nombres!: string[];
   @ViewChildren("preguntas") preguntas!: QueryList<ElementRef>;
+  public completa = false
+  public correcta = false
+  public puntuacion = 0
+  public terminado = false
 
   ngOnInit(): void {
     this.nombres = [];
@@ -40,18 +44,36 @@ export class JuegoComponent implements OnInit {
 
   check(nombre: string, comprobacion: any) {
 
-    if (comprobacion.includes(nombre)) {
-      alert("¡Acierto!");
+    if(this.completa){
+      return
     }else{
-      alert("Error!");
-    }
 
+      if (comprobacion.includes(nombre)) {
+        this.correcta = true
+        this.puntuacion++
+      }else{
+        this.correcta = false
+      }
+      this.completa=true
+    }
   }
 
   public preguntaActual: number = 0;
 
 
   next(){
+    this.completa=false
     this.preguntaActual++;
+    console.log(this.preguntaActual+";"+this.jsonData.length)
+    if(this.preguntaActual==this.jsonData.length-2){
+      this.terminado = true
+    }
+  }
+
+  porcentajePuntuacion(){
+
+    var resultado = Math.trunc(this.puntuacion*100/41)
+
+    return resultado
   }
 }
