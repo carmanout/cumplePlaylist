@@ -12,17 +12,17 @@
   {
     "titulo": "A Gritos De Esperanza (y si preguntan por mi...)",
     "artista": "Alex Ubago",
-    "nombres": ["Ana Gilo"]
+    "nombres": ["Mamá"]
   },
   {
     "titulo": "Ama, Ama, Ama, y Ensancha El Alma",
     "artista": "Extremoduro",
-    "nombres": ["Juan", "Isa"]
+    "nombres": ["Juan", "Tita Isa"]
   },
   {
     "titulo": "Asturias",
     "artista": "Melendi",
-    "nombres": ["Jose Ramón"]
+    "nombres": ["Papá"]
   },
   {
     "titulo": "Batmovil - Hens, Pole., Funzo & Baby Loud",
@@ -47,12 +47,12 @@
   {
     "titulo": "Chiquilla",
     "artista": "Seguridad Social",
-    "nombres": ["Jose Ramón"]
+    "nombres": ["Papá"]
   },
   {
     "titulo": "Club De Fans De John Boy",
     "artista": "Love Of Lesbian",
-    "nombres": ["Juan", "Ana Gilo"]
+    "nombres": ["Juan", "Mamá"]
   },
   {
     "titulo": "Cum On Feel The Noize",
@@ -62,7 +62,7 @@
   {
     "titulo": "Como Conoci A Vuestra Madre",
     "artista": "Ivan Ferreiro",
-    "nombres": ["Isa", "Clara"]
+    "nombres": ["Tita Isa", "Clara"]
   },
   {
     "titulo": "Cualquier Otra Parte",
@@ -102,7 +102,7 @@
   {
     "titulo": "Fix You",
     "artista": "Coldplay",
-    "nombres": ["Isa"]
+    "nombres": ["Tita Isa"]
   },
   {
     "titulo": "Hasta Cuando",
@@ -112,12 +112,12 @@
   {
     "titulo": "La Del Pirata Cojo",
     "artista": "Joaquin Sabina",
-    "nombres": ["Ana Carmona", "Isa", "Ana Gilo"]
+    "nombres": ["Tita Ana", "Tita Isa", "Mamá"]
   },
   {
     "titulo": "Las Malas Lenguas",
     "artista": "Love Of Lesbian",
-    "nombres": ["Isa"]
+    "nombres": ["Tita Isa"]
   },
   {
     "titulo": "Latinoamerica",
@@ -157,7 +157,7 @@
   {
     "titulo": "Papá Cuentame Otra Vez",
     "artista": "Ismael Serrano",
-    "nombres": ["Ana Gilo", "Sergio"]
+    "nombres": ["Mamá", "Sergio"]
   },
   {
     "titulo": "Palomas",
@@ -167,7 +167,7 @@
   {
     "titulo": "Pienso En Aquella Tarde",
     "artista": "Pereza",
-    "nombres": ["Jose Ramón"]
+    "nombres": ["Papá"]
   },
   {
     "titulo": "Quien Fuera",
@@ -177,7 +177,7 @@
   {
     "titulo": "Salir",
     "artista": "Extremo Duro",
-    "nombres": ["Ana Carmona"]
+    "nombres": ["Tita Ana"]
   },
   {
     "titulo": "Tu Foto",
@@ -187,12 +187,12 @@
   {
     "titulo": "Turnedo",
     "artista": "Ivanferreiro",
-    "nombres": ["Ana Carmona"]
+    "nombres": ["Tita Ana"]
   },
   {
     "titulo": "Ultimamente",
     "artista": "Ismael Serrano",
-    "nombres": ["Ana Carmona"]
+    "nombres": ["Tita Ana"]
   },
   {
     "titulo": "Ventiladors",
@@ -202,6 +202,6 @@
   {
     "titulo": "Wonderwall",
     "artista": "Oasis",
-    "nombres": ["Ana Gilo"]
+    "nombres": ["Mamá"]
   }
 ]

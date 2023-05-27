@@ -18,18 +18,18 @@
 
             <div class="solucion" *ngIf="i === preguntaActual && completa" @fade>
                 <div>
-                    <p *ngIf="correcta">¡Has acertado!</p>
-                    <p *ngIf="!correcta">¡Fallaste!</p>
+                    <h3 *ngIf="correcta" class="correcta">¡Has acertado!</h3>
+                    <h3 *ngIf="!correcta" class="fallo">¡Fallaste!</h3>
                     <div *ngIf="cancion.nombres.length > 1">
-                        <p>
+                        <h3>
                             ¡<span *ngFor="let nombre of cancion.nombres; let i = index; let last = last">{{nombre}}{{last ? '' : (i < cancion.nombres.length - 2) ? ', ' : ' y también'}}
                             </span>
-                            pensaron en ti con esta canción!</p>
+                            pensaron en ti con esta canción!</h3>
                     </div>
                     
-                    <p *ngIf="cancion.nombres.length == 1">
+                    <h3 *ngIf="cancion.nombres.length == 1">
                         ¡{{cancion.nombres[0]}} pensó en ti con esta canción!
-                    </p>
+                    </h3>
                 </div>
 
                 <button (click)="next()">Siguiente</button>
