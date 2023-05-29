@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .song {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        .song h2, .song h3 {
+            margin: 0 0 10px 0;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            .song {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="playlist">
+        <!-- Songs will be inserted here -->
+    </div>
+
+    <script>
+        const playlist = document.getElementById('playlist');
+        const url = 'https://carmanout.github.io/cumplePlaylist/assets/canciones.json';
+
+        fetch(url)
+            .then(response => response.json())
+            .then(songs => {
+                songs.forEach(song => {
+                    const songElement = document.createElement('div');
+                    songElement.className = 'song';
+                    songElement.innerHTML = `
+                        <h2>${song.titulo} - ${song.artista}</h2>
+                        <h3>${song.nombres.join(', ')}</h3>
+                    `;
+                    playlist.appendChild(songElement);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>
